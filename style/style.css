@@ -18,7 +18,7 @@
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 1000;
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 2px black;
 }
@@ -77,6 +77,10 @@
 
 .space{
     margin-bottom: 20px;
+}
+
+.navTextBold{
+    font-weight: 100px;
 }
 
 @media screen and (max-width: 900px) {
