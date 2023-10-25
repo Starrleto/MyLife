@@ -1,0 +1,80 @@
+.greyBox{
+    background-color:rgb(211, 207, 207);
+}
+
+.paragraphBox{
+    margin: 20px;
+    width: 850px;
+    padding: 20px;
+    background-color:rgb(211, 207, 207);
+    border: solid 5px rgb(112, 25, 42);
+
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.mainHeader{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.mainHeaderRed{
+    color:rgb(112, 25, 42);
+    padding: 10px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.paragraphStuff{
+    text-align: center;
+}
+
+.allignBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centerBox{
+    justify-content: center;
+}
+
+.colorText{
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    color:darkred
+}
+
+.colorTextLight{
+    font-size: large;
+    color:darkred
+}
+
+.imgSetting{
+    border: solid 5px rgb(58, 14, 23);
+    width: 850px;
+}
+
+.littleImgSetting{
+    width: 400px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 900px) {
+  
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    #imgSetting{
+        border: solid 5px rgb(58, 14, 23);
+        width: 500px;
+    }
+}
+
