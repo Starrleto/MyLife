@@ -79,8 +79,8 @@
     margin-bottom: 20px;
 }
 
-.navTextBold{
-    font-weight: 100px;
+.thicc{
+    font-weight: 700;
 }
 
 @media screen and (max-width: 900px) {
